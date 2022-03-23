@@ -37,7 +37,8 @@ const UserChatMessage = ({
         elseShow={
           <div className="react-chatbot-kit-user-avatar">
             <div className="react-chatbot-kit-user-avatar-container">
-              <UserIcon className="react-chatbot-kit-user-avatar-icon" />
+              {/* <UserIcon className="react-chatbot-kit-user-avatar-icon" /> */}
+              <p className="react-chatbot-kit-chat-bot-avatar-letter">U</p>
             </div>
           </div>
         }
