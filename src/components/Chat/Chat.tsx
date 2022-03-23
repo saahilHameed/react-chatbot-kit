@@ -308,8 +308,8 @@ const Chat = ({
             className="react-chatbot-kit-chat-input-form"
             onSubmit={handleSubmit}
           >
-            <div>
-              <ImMenu />
+            <div className="react-chatbot-kit-main-menu">
+              <ImMenu style={{size:"30px"}} />
             </div>
             <input
               className="react-chatbot-kit-chat-input"
