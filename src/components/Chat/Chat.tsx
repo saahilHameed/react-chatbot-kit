@@ -261,7 +261,7 @@ const Chat = ({
     customButtonStyle.backgroundColor = customStyles.chatButton.backgroundColor;
   }
 
-  let header = `Conversation with ${botName}`;
+  let header = `${botName}-Your E-Assistant`;
   if (headerText) {
     header = headerText;
   }
