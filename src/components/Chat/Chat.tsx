@@ -3,7 +3,7 @@ import ConditionallyRender from 'react-conditionally-render';
 
 import UserChatMessage from '../UserChatMessage/UserChatMessage';
 import ChatbotMessage from '../ChatbotMessage/ChatbotMessage';
-
+import {ImMenu} from "react-icons/im"
 import {
   botMessage,
   userMessage,
@@ -308,6 +308,9 @@ const Chat = ({
             className="react-chatbot-kit-chat-input-form"
             onSubmit={handleSubmit}
           >
+            <div>
+              <ImMenu />
+            </div>
             <input
               className="react-chatbot-kit-chat-input"
               placeholder={placeholder}
