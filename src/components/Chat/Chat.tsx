@@ -309,7 +309,7 @@ const Chat = ({
             onSubmit={handleSubmit}
           >
             <div className="react-chatbot-kit-main-menu">
-              <CgMenuGridO size={30} color={#2983C5} />
+              <CgMenuGridO size={30} color={"#2983C5"} />
             </div>
             <input
               className="react-chatbot-kit-chat-input"
